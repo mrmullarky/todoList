@@ -1,0 +1,94 @@
+html{
+  box-sizing: border-box;
+}
+
+body{
+  background: #ef8c2f;
+}
+
+#container{
+  width: 60%;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+  color: #fff;
+  font-family: 'Carter One', cursive;
+}
+
+#addTodoRow{
+  height: 50px;
+  display: flex;
+}
+
+#toggleAllButton{
+  height: 50px;
+  width: 7%;
+  float: left;
+  font-size: 24px;
+  font-family: 'Carter One', cursive;
+  background: transparent;
+  border-style: solid;
+  color: #fff;
+}
+
+#addTodoTextInput{
+  width: 90%;
+  height: 44px;
+  float: left;
+  font-size: 20px;
+  font-family: 'Carter One', cursive;
+}
+
+
+#addTodoButton{
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Carter One', cursive;
+  height: 50px;
+  width: 10%;
+  float: left;
+  background: transparent;
+  border-style: solid;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Carter One', cursive;
+}
+
+ul li:nth-child(odd) {
+  background: #d8781e;
+}
+
+ul li{
+  height: 35px;
+  transition: 0.2s;
+  
+    -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+ul li.checked{
+  background: #fdb368;
+  text-decoration: line-through;
+}
+
+.deleteButton{
+  float: right;
+  height: 100%;
+  width: 35px;
+  border-style: none;
+  background: transparent;
+  color: #fff;
+}
+
+.deleteButton:hover{
+  background: #f47702;
+}
